@@ -337,7 +337,7 @@
         position: relative;
         text-decoration: none;
         color: silver;
-        top: 2.5%;
+        top: 102%;
         font-size: 1.7vh;
         font-weight: 600;
         display: flex;
@@ -350,7 +350,7 @@
         background: linear-gradient(90deg, rgba(198,209,14,1) 0%, rgba(84,102,46,1) 50%, rgba(51,180,99,1) 100%);
     }
     #section-hot .gallery{
-        bottom: 0;
+        bottom: 10%;
     }
     #section-hot .hot .trends{
         top: 0;
@@ -377,7 +377,7 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-        width: 65%;
+        width: 70%;
         height: 130%;
         object-fit: fill;
     }
