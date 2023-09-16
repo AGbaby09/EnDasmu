@@ -303,7 +303,6 @@
     }
     #section-hot .hot .texts .text{
         position: relative;
-        /* border: 1px solid red; */
         width: 100%;
         height: 15%;
         overflow: hidden;
@@ -380,6 +379,151 @@
         width: 70%;
         height: 130%;
         object-fit: fill;
+    }
+
+    #top-list{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #top-list .top{
+        position: relative;
+        height: 90%;
+    }
+    #top-list .top .texts{
+        position: relative;
+        width: 100%;
+        height: 30%;
+    }
+    #top-list .top .texts>p{
+        color: rgb(88, 186, 88);
+        /* border: 1px solid white; */
+        padding: 2% 5%;
+        font-size: 1.5vh;
+        font-family: "Poppins", sans-serif;
+        margin-top: 5%;
+    }
+    #top-list .top .texts .text{
+        position: relative;
+        width: 100%;
+        height: 20%;
+        overflow: hidden;
+    }
+    #top-list .top .texts .text>h1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vh;
+        font-family: 'Caprasimo', cursive;
+        background: #C0C0C0;
+        background: linear-gradient(to bottom, #C0C0C0 56%, #536353 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #top-list .top .texts .param{
+        position: relative;
+        top: 5%;
+        width: 80%;
+        margin: 0 10%;
+        height: auto;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7vh;
+        color: grey;
+        line-height: 3vh;
+        text-align: center;
+    }
+    #top-list .top .cards{
+        position: relative;
+        /* background-color: red; */
+        width: 100%;
+        height: 70%;
+        display: block;
+        bottom: 5%;
+    }
+
+    #top-list .top .cards .card{
+        position: relative;
+        width: 80%;
+        height: 40%;
+        margin: 15% 10%;
+        background: rgb(0, 0, 0, 0.3);
+        border-radius: 5vh;
+        color: silver;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        box-shadow: 3px 3px 15px 5px rgb(0, 0, 0, 0.5);
+    }
+    #top-list .top .cards .card>.avatar{
+        transform: scale(2.5) translateX(-25%);
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        overflow: hidden;
+    }
+    #top-list .top .cards .card>.tik{
+        position: relative;
+        color: red;
+        text-align: center;
+        top: 13%;
+        font-size: 5vh;
+    }
+    #top-list .top .cards .card>.name{
+        position: relative;
+        /* background-color: red; */
+        top: 0%;
+        font-size: 1.7vh;
+    }
+    #top-list .top .cards .card>p{
+        position: relative;
+        /* background-color: red; */
+        top: 10%;
+        font-size: 1.2vh;
+        color: grey;
+    }
+    #top-list .top .cards .card>.img{
+        position: absolute;
+        bottom: 0;
+        height: 50%;
+        width: 100%;
+        border-radius: 5vh;
+        background-color: #536353;
+        overflow: hidden;
+    }
+    #top-list .top .cards .card>.img img, #top-list .top .cards .card>.avatar img{
+        position: relative;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    #top-list .bottom{
+        position: relative;
+        /* border: 1px solid red; */
+        width: 90%;
+        height: 10%;
+        margin: 0 5%;
+        display: flex;
+        /* top: 15%; */
+        align-items: center;
+        justify-content: space-between;
+    }
+    #top-list .bottom .img{
+        position: relative;
+        width: 10%;
+        height: 20%;
+        /* background-color: teal; */
+    }
+    #top-list .bottom img{
+        width: 100%;
+        height: 100%;
+        /* background-color: teal; */
+        object-fit: contain;
+        object-position: center;
+    }
+    .inv{
+        filter: invert();
     }
 }
 /* end of mobile */
